@@ -1,5 +1,7 @@
 package org.example.model;
 
+import java.util.Arrays;
+
 public class UnoCards {
     public String cardType;
     public String cardColor;
@@ -11,5 +13,12 @@ public class UnoCards {
         this.cardVal = cardVal;
     }
 
-
+    @Override
+    public String toString() {
+        return "UnoCards{" +
+                "cardType='" + cardType + '\'' +
+                ", cardColor='" + cardColor + '\'' +
+                ", cardVal=" + cardVal +
+                '}';
+    }
 }

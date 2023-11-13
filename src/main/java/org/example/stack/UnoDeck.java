@@ -1,16 +1,16 @@
 package org.example.stack;
 
-import org.example.model.ShoppingItem;
+import org.example.model.UnoCards;
 
 public class UnoDeck {
     private int capacity;
     private int size;
-    private UnoDeck[] deck;
+    private UnoCards[] deck;
 
     public UnoDeck(int capacity){
         this.capacity = capacity;
         this.size = 0;
-        this.deck = new UnoDeck[capacity];
+        this.deck = new UnoCards[capacity];
     }
 
     public boolean isEmpty(){
@@ -21,7 +21,7 @@ public class UnoDeck {
         return size >= capacity;
     }
 
-    public boolean push(UnoDeck card){
+    public boolean push(UnoCards card){
         if(isFull()){
             return false;
         }
@@ -29,18 +29,18 @@ public class UnoDeck {
         return true;
     }
 
-    public UnoDeck pop(){
+    public UnoCards pop(){
         if(isEmpty()){
             return null;
         }
-        UnoDeck card = deck[size-1];
+        UnoCards card = deck[size-1];
         deck[--size] = null;
         return card;
     }
 
     public void peek(){
         if(isEmpty()){return;}
-        UnoDeck item = deck[size-1];
+        UnoCards item = deck[size-1];
         System.out.println(deck[size-1]);
     }
 }
