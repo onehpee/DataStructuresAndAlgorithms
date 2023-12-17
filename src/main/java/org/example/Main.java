@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.OOP.Student;
 import org.example.model.ShoppingItem;
 import org.example.model.UnoCards;
 import org.example.stack.Stack;
@@ -11,6 +12,42 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
+
+        Student n = new Student();
+
+//        Student s = new Student("Boye", "Uwensuyi");
+//        Student.age = 31;
+//        Student s2 = new Student("Uyi", "Omofonmwan");
+//        Student s3 = new Student("Oseratin", "Omofonmwan");
+//
+//        System.out.println(s);
+//        System.out.println(s2);
+//        System.out.println(s3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        Stack cart = new Stack(5);
 //
 //        cart.push(new ShoppingItem("pizza", 14.99));
@@ -26,122 +63,122 @@ public class Main {
        //cart.printStack();
        //cart.peek();
 
-        UnoDeck deck = new UnoDeck(108);
-
-
-        deck.push(new UnoCards("number","red",0));
-        deck.push(new UnoCards("number","red",1));
-        deck.push(new UnoCards("number","red",1));
-        deck.push(new UnoCards("number","red",2));
-        deck.push(new UnoCards("number","red",2));
-        deck.push(new UnoCards("number","red",3));
-        deck.push(new UnoCards("number","red",3));
-        deck.push(new UnoCards("number","red",4));
-        deck.push(new UnoCards("number","red",4));
-        deck.push(new UnoCards("number","red",5));
-        deck.push(new UnoCards("number","red",5));
-        deck.push(new UnoCards("number","red",6));
-        deck.push(new UnoCards("number","red",6));
-        deck.push(new UnoCards("number","red",7));
-        deck.push(new UnoCards("number","red",7));
-        deck.push(new UnoCards("number","red",8));
-        deck.push(new UnoCards("number","red",8));
-        deck.push(new UnoCards("number","red",9));
-        deck.push(new UnoCards("number","red",9));
-
-        deck.push(new UnoCards("number","blue",0));
-        deck.push(new UnoCards("number","blue",1));
-        deck.push(new UnoCards("number","blue",1));
-        deck.push(new UnoCards("number","blue",2));
-        deck.push(new UnoCards("number","blue",2));
-        deck.push(new UnoCards("number","blue",3));
-        deck.push(new UnoCards("number","blue",3));
-        deck.push(new UnoCards("number","blue",4));
-        deck.push(new UnoCards("number","blue",4));
-        deck.push(new UnoCards("number","blue",5));
-        deck.push(new UnoCards("number","blue",5));
-        deck.push(new UnoCards("number","blue",6));
-        deck.push(new UnoCards("number","blue",6));
-        deck.push(new UnoCards("number","blue",7));
-        deck.push(new UnoCards("number","blue",7));
-        deck.push(new UnoCards("number","blue",8));
-        deck.push(new UnoCards("number","blue",8));
-        deck.push(new UnoCards("number","blue",9));
-        deck.push(new UnoCards("number","blue",9));
-
-        deck.push(new UnoCards("number","green",0));
-        deck.push(new UnoCards("number","green",1));
-        deck.push(new UnoCards("number","green",1));
-        deck.push(new UnoCards("number","green",2));
-        deck.push(new UnoCards("number","green",2));
-        deck.push(new UnoCards("number","green",3));
-        deck.push(new UnoCards("number","green",3));
-        deck.push(new UnoCards("number","green",4));
-        deck.push(new UnoCards("number","green",4));
-        deck.push(new UnoCards("number","green",5));
-        deck.push(new UnoCards("number","green",5));
-        deck.push(new UnoCards("number","green",6));
-        deck.push(new UnoCards("number","green",6));
-        deck.push(new UnoCards("number","green",7));
-        deck.push(new UnoCards("number","green",7));
-        deck.push(new UnoCards("number","green",8));
-        deck.push(new UnoCards("number","green",8));
-        deck.push(new UnoCards("number","green",9));
-        deck.push(new UnoCards("number","green",9));
-
-        deck.push(new UnoCards("number","yellow",0));
-        deck.push(new UnoCards("number","yellow",1));
-        deck.push(new UnoCards("number","yellow",1));
-        deck.push(new UnoCards("number","yellow",2));
-        deck.push(new UnoCards("number","yellow",2));
-        deck.push(new UnoCards("number","yellow",3));
-        deck.push(new UnoCards("number","yellow",3));
-        deck.push(new UnoCards("number","yellow",4));
-        deck.push(new UnoCards("number","yellow",4));
-        deck.push(new UnoCards("number","yellow",5));
-        deck.push(new UnoCards("number","yellow",5));
-        deck.push(new UnoCards("number","yellow",6));
-        deck.push(new UnoCards("number","yellow",6));
-        deck.push(new UnoCards("number","yellow",7));
-        deck.push(new UnoCards("number","yellow",7));
-        deck.push(new UnoCards("number","yellow",8));
-        deck.push(new UnoCards("number","yellow",8));
-        deck.push(new UnoCards("number","yellow",9));
-        deck.push(new UnoCards("number","yellow",9));
-
-        deck.push(new UnoCards("skip","yellow",0));
-        deck.push(new UnoCards("skip","yellow",1));
-
-        deck.push(new UnoCards("skip","green",0));
-        deck.push(new UnoCards("skip","green",1));
-
-        deck.push(new UnoCards("skip","blue",0));
-        deck.push(new UnoCards("skip","blue",1));
-
-        deck.push(new UnoCards("skip","red",0));
-        deck.push(new UnoCards("skip","red",1));
-
-        deck.push(new UnoCards("reverse","green",0));
-        deck.push(new UnoCards("reverse","green",1));
-
-        deck.push(new UnoCards("reverse","yellow",0));
-        deck.push(new UnoCards("reverse","yellow",1));
-
-        deck.push(new UnoCards("reverse","red",0));
-        deck.push(new UnoCards("reverse","red",1));
-
-        deck.push(new UnoCards("reverse","blue",0));
-        deck.push(new UnoCards("reverse","blue",1));
-
-        deck.push(new UnoCards("wild card","black",0));
-        deck.push(new UnoCards("wild card","black",1));
-        deck.push(new UnoCards("wild card","black",2));
-        deck.push(new UnoCards("wild card","black",3));
-
-        deck.push(new UnoCards("wild draw 4","black",0));
-        deck.push(new UnoCards("wild draw 4","black",1));
-        deck.push(new UnoCards("wild draw 4","black",2));
-        deck.push(new UnoCards("wild draw 4","black",3));
+//        UnoDeck deck = new UnoDeck(108);
+//
+//
+//        deck.push(new UnoCards("number","red",0));
+//        deck.push(new UnoCards("number","red",1));
+//        deck.push(new UnoCards("number","red",1));
+//        deck.push(new UnoCards("number","red",2));
+//        deck.push(new UnoCards("number","red",2));
+//        deck.push(new UnoCards("number","red",3));
+//        deck.push(new UnoCards("number","red",3));
+//        deck.push(new UnoCards("number","red",4));
+//        deck.push(new UnoCards("number","red",4));
+//        deck.push(new UnoCards("number","red",5));
+//        deck.push(new UnoCards("number","red",5));
+//        deck.push(new UnoCards("number","red",6));
+//        deck.push(new UnoCards("number","red",6));
+//        deck.push(new UnoCards("number","red",7));
+//        deck.push(new UnoCards("number","red",7));
+//        deck.push(new UnoCards("number","red",8));
+//        deck.push(new UnoCards("number","red",8));
+//        deck.push(new UnoCards("number","red",9));
+//        deck.push(new UnoCards("number","red",9));
+//
+//        deck.push(new UnoCards("number","blue",0));
+//        deck.push(new UnoCards("number","blue",1));
+//        deck.push(new UnoCards("number","blue",1));
+//        deck.push(new UnoCards("number","blue",2));
+//        deck.push(new UnoCards("number","blue",2));
+//        deck.push(new UnoCards("number","blue",3));
+//        deck.push(new UnoCards("number","blue",3));
+//        deck.push(new UnoCards("number","blue",4));
+//        deck.push(new UnoCards("number","blue",4));
+//        deck.push(new UnoCards("number","blue",5));
+//        deck.push(new UnoCards("number","blue",5));
+//        deck.push(new UnoCards("number","blue",6));
+//        deck.push(new UnoCards("number","blue",6));
+//        deck.push(new UnoCards("number","blue",7));
+//        deck.push(new UnoCards("number","blue",7));
+//        deck.push(new UnoCards("number","blue",8));
+//        deck.push(new UnoCards("number","blue",8));
+//        deck.push(new UnoCards("number","blue",9));
+//        deck.push(new UnoCards("number","blue",9));
+//
+//        deck.push(new UnoCards("number","green",0));
+//        deck.push(new UnoCards("number","green",1));
+//        deck.push(new UnoCards("number","green",1));
+//        deck.push(new UnoCards("number","green",2));
+//        deck.push(new UnoCards("number","green",2));
+//        deck.push(new UnoCards("number","green",3));
+//        deck.push(new UnoCards("number","green",3));
+//        deck.push(new UnoCards("number","green",4));
+//        deck.push(new UnoCards("number","green",4));
+//        deck.push(new UnoCards("number","green",5));
+//        deck.push(new UnoCards("number","green",5));
+//        deck.push(new UnoCards("number","green",6));
+//        deck.push(new UnoCards("number","green",6));
+//        deck.push(new UnoCards("number","green",7));
+//        deck.push(new UnoCards("number","green",7));
+//        deck.push(new UnoCards("number","green",8));
+//        deck.push(new UnoCards("number","green",8));
+//        deck.push(new UnoCards("number","green",9));
+//        deck.push(new UnoCards("number","green",9));
+//
+//        deck.push(new UnoCards("number","yellow",0));
+//        deck.push(new UnoCards("number","yellow",1));
+//        deck.push(new UnoCards("number","yellow",1));
+//        deck.push(new UnoCards("number","yellow",2));
+//        deck.push(new UnoCards("number","yellow",2));
+//        deck.push(new UnoCards("number","yellow",3));
+//        deck.push(new UnoCards("number","yellow",3));
+//        deck.push(new UnoCards("number","yellow",4));
+//        deck.push(new UnoCards("number","yellow",4));
+//        deck.push(new UnoCards("number","yellow",5));
+//        deck.push(new UnoCards("number","yellow",5));
+//        deck.push(new UnoCards("number","yellow",6));
+//        deck.push(new UnoCards("number","yellow",6));
+//        deck.push(new UnoCards("number","yellow",7));
+//        deck.push(new UnoCards("number","yellow",7));
+//        deck.push(new UnoCards("number","yellow",8));
+//        deck.push(new UnoCards("number","yellow",8));
+//        deck.push(new UnoCards("number","yellow",9));
+//        deck.push(new UnoCards("number","yellow",9));
+//
+//        deck.push(new UnoCards("skip","yellow",0));
+//        deck.push(new UnoCards("skip","yellow",1));
+//
+//        deck.push(new UnoCards("skip","green",0));
+//        deck.push(new UnoCards("skip","green",1));
+//
+//        deck.push(new UnoCards("skip","blue",0));
+//        deck.push(new UnoCards("skip","blue",1));
+//
+//        deck.push(new UnoCards("skip","red",0));
+//        deck.push(new UnoCards("skip","red",1));
+//
+//        deck.push(new UnoCards("reverse","green",0));
+//        deck.push(new UnoCards("reverse","green",1));
+//
+//        deck.push(new UnoCards("reverse","yellow",0));
+//        deck.push(new UnoCards("reverse","yellow",1));
+//
+//        deck.push(new UnoCards("reverse","red",0));
+//        deck.push(new UnoCards("reverse","red",1));
+//
+//        deck.push(new UnoCards("reverse","blue",0));
+//        deck.push(new UnoCards("reverse","blue",1));
+//
+//        deck.push(new UnoCards("wild card","black",0));
+//        deck.push(new UnoCards("wild card","black",1));
+//        deck.push(new UnoCards("wild card","black",2));
+//        deck.push(new UnoCards("wild card","black",3));
+//
+//        deck.push(new UnoCards("wild draw 4","black",0));
+//        deck.push(new UnoCards("wild draw 4","black",1));
+//        deck.push(new UnoCards("wild draw 4","black",2));
+//        deck.push(new UnoCards("wild draw 4","black",3));
 
         //Collections.shuffle(deck);
 
