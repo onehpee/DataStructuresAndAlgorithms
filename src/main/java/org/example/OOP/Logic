@@ -14,6 +14,18 @@ In Java, abstraction is achieved by interfaces and abstract classes. We can achi
     There can be no object of an abstract class. That is, an abstract class can not be directly instantiated with the new operator.
     An abstract class can have parameterized constructors and the default constructor is always present in an abstract class.
 
+Ex:
+    There are situations in which we will want to define a class that declares the structure
+    of a given abstraction without providing a complete implementation of every method. Sometimes we will want to create
+    a class that only defines a generalization form that will be shared by all of its subclasses, leaving it to each subclass to fill in the details.
 
 Inheritance:
+    It is the mechanism in Java by which one class is allowed to inherit the features(fields and methods)
+    of another class. In Java, Inheritance means creating new classes based on existing ones.
+    A class that inherits from another class can reuse the methods and fields of that class.
+    In addition, you can add new fields and methods to your current class as well.
+
+    Class: Class is a set of objects which shares common characteristics/ behavior and common properties/ attributes. Class is not a real-world entity. It is just a template or blueprint or prototype from which objects are created.
+    Super Class/Parent Class: The class whose features are inherited is known as a superclass(or a base class or a parent class).
+    Sub Class/Child Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
 Polymorphism:
