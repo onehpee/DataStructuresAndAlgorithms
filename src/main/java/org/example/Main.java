@@ -13,7 +13,21 @@ import java.util.Collections;
 public class Main {
     public static void main(String[] args) {
 
-        Student n = new Student();
+        int[] nums = new int[5];
+
+        nums[0] = 0;
+        nums[1] = 1;
+        nums[2] = 2;
+        nums[3] = 3;
+        nums[4] = 4;
+
+        int i = 0;
+        while (i < nums.length){
+            System.out.println(nums[i]);
+            ++i;
+        }
+
+       // Student n = new Student();
 
 //        Student s = new Student("Boye", "Uwensuyi");
 //        Student.age = 31;
