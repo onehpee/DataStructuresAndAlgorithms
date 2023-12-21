@@ -29,3 +29,12 @@ Inheritance:
     Super Class/Parent Class: The class whose features are inherited is known as a superclass(or a base class or a parent class).
     Sub Class/Child Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
 Polymorphism:
+
+
+
+Like a class, an interface can have methods and variables, but the methods declared in the interface are by default abstract (only method signature, nobody).
+
+    Interfaces specify what a class must do and not how. It is the blueprint of the class.
+    An Interface is about capabilities like a Player may be an interface and any class implementing Player must be able to (or must implement) move(). So it specifies a set of methods that the class has to implement.
+    If a class implements an interface and does not provide method bodies for all functions specified in the interface, then the class must be declared abstract.
+    A Java library example is Comparator Interface. If a class implements this interface, then it can be used to sort a collection.
